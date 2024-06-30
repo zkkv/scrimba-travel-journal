@@ -1,7 +1,10 @@
+import globe from "../../public/images/globe.svg"
+
 export default function Nav() {
 	return (
 		<nav>
-			My Travel Journal
+			<img src={globe} />
+			<a href="/">travelJ.</a>
 		</nav>
 	)
 }
