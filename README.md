@@ -7,3 +7,6 @@ Deployed website can be found [here](https://zkkv.github.io/scrimba-travel-journ
 ## Screenshots
 
 ![A screenshot of the travel journal](/media/result.png?raw=true)
+
+## Developer
+Developed by zkkv, 06/2024
