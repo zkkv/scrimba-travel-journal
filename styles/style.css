@@ -8,7 +8,7 @@ body {
 }
 
 #top-level-container {
-	background-color: #fff9f2;
+	background-color: #fffefc;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -39,17 +39,71 @@ nav > a{
 #list-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	width: 75%;
+	align-items: flex-start;
+	width: 50%;
+	padding: 2rem;
+}
+
+.card-image-container {
+	aspect-ratio: 3 / 4;
+	height: 12rem;
+	object-fit: cover;
 }
 
 .card-image {
-	height: 100%; /* TODO */
+	height: 100%;
+	width: 100%;
+	border-radius: 0.5rem;
 }
 
 .card-container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	height: fit-content;
+	margin: 0.1rem 0;
+}
+
+.info-container {
+	padding: 2rem;
+}
+
+.location-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.location-container > img {
+	height: 1rem;
+}
+
+.location-container > h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 0.25rem;
+	font-size: 9pt;
+	margin-left: 0.5rem;
+}
+
+.location-container > a {
+	font-size: 9pt;
+	color: #918e9b;
+	margin-left: 1.5rem;
+}
+
+h2 {
+	font-size: 25pt;
+	margin: 0.5rem 0;
+}
+
+.dates {
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.description {
+	font-weight: normal;
+	font-size: 10pt;
 }
 
